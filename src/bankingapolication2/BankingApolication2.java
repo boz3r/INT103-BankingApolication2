@@ -63,7 +63,7 @@ public class BankingApolication2 {
                     scan.nextLine();
                     System.out.print("Enter Amount Number: ");
                     amount = scan.nextDouble();
-                    bank.depositMoney(accountNumber, amount);
+                    bank.withdrawMoney(accountNumber, amount);
                     break;
             }
             System.out.println();
